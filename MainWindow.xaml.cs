@@ -33,7 +33,7 @@ namespace ResourcePackViewer2
                StreamReader file = new StreamReader(path);
                 while ((request = file.ReadLine()) != null)
                 {
-                    if (line.Contains("Resource packs"))
+                    if (request.Contains("Resource packs"))
                     {
                         Results.Items.Add(request);
                     }
