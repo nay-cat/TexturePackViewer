@@ -39,6 +39,7 @@ namespace ResourcePackViewer2
                     }
                 }
                 file.Close();
+                MessageBox.Show("✔️");
             }
             catch
             {
